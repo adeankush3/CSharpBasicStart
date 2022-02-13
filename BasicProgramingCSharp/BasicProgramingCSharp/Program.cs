@@ -9,8 +9,12 @@ namespace BasicProgramingCSharp
     class Program
     {
         static void Main(string[] args)
+
         {
             Console.WriteLine("Welcome To C# Programming Language");
+            Basic basic = new Basic();
+            basic.Base();
+           
         }
     }
 }
